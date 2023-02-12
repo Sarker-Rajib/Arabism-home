@@ -1,0 +1,36 @@
+.newsletter {
+    background: url(../images/bg4.png) no-repeat center center/cover;
+    padding: 150px 0;
+
+    .wrapper {
+        max-width: 720px;
+        margin: auto;
+
+        .heading {
+            font-weight: 700;
+            font-size: 50px;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 32px;
+            color: #FFFFFF;
+            padding-bottom: 50px;
+        }
+
+        input {
+            background: #FDEBBC;
+            border-radius: 10px 0px 0px 10px;
+            height: 64px;
+        }
+
+        button {
+            background: #371900;
+            border-radius: 0px 10px 10px 0px;
+            color: #FFFFFF;
+            height: 64px;
+            font-size: 30px;
+        }
+    }
+}

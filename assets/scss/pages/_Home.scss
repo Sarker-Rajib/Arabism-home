@@ -1,0 +1,109 @@
+.home-about {
+    padding-top: 150px;
+    background: url(./../images/ab-bg.png) no-repeat center center/cover;
+
+    .description {
+        font-weight: 500;
+        font-size: 35px;
+        color: #371900;
+    }
+
+    .goal {
+        padding-top: 400px;
+        position: relative;
+
+        h6 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            color: #371900;
+            padding-bottom: 30px;
+        }
+
+        ul {
+            li {
+                list-style: disc;
+                font-weight: 500;
+                font-size: 32px;
+                color: #371900;
+            }
+        }
+
+        .line1 {
+            position: absolute;
+            top: -90px;
+            left: 40%;
+
+            @media(max-width: 1199px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.our-service {
+    position: relative;
+    padding-top: 400px;
+
+    .description {
+        font-weight: 500;
+        font-size: 35px;
+        color: #371900;
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            padding-left: 50px;
+            font-weight: 500;
+            font-size: 35px;
+            color: #371900;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 10px;
+                height: 30px;
+                width: 30px;
+                background: url(../images/li.png) center center/contain;
+            }
+        }
+    }
+
+    .line2 {
+        position: absolute;
+        top: -90px;
+        left: 35%;
+
+        @media(max-width: 1199px) {
+            display: none;
+        }
+    }
+}
+
+.our-mission {
+    position: relative;
+    padding-top: 400px;
+    padding-bottom: 200px;
+
+    .description {
+        font-weight: 500;
+        font-size: 35px;
+        color: #371900;
+    }
+
+
+    .line3 {
+        position: absolute;
+        top: -90px;
+        left: 35%;
+
+
+        @media(max-width: 1199px) {
+            display: none;
+        }
+    }
+}
