@@ -232,13 +232,6 @@ body {
   border-radius: 50%;
   color: #000;
 }
-.footer .social-link a .fab,
-.footer .social-link a .fas {
-  font-size: 30px;
-}
-.footer .social-link a:hover {
-  color: burlywood;
-}
 .footer .link-header {
   padding-top: 30px;
   padding-bottom: 15px;
