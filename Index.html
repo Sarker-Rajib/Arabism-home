@@ -36,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Our Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
           <div class="ms-auto">
@@ -59,12 +59,15 @@
         <h4 class="title">Arabism Land</h4>
         <h6 class="subt">welcomes you to</h6>
         <p class="description">Explore Saudi Arabia like you’ve never seen before.
-          Arabism Land offers you a discovery opportunity in
-          an extraordinary journey.
+          Arabism Land offers you a discovery opportunity in an
+          extraordinary journey.
+          <span id="moreText" class="d-none">Be part of the valuable journey and enjoy the featured tours and trips.
+            <strong>exclusive offers! For subscribers only
+              enjoy a 30% coupon discount</strong></span>
         </p>
         <div class="buttons">
           <button class="btn button-yellow">Subscribe now</button>
-          <button class="btn button-transparent">Read More</button>
+          <button id="bannertoggler" class="btn button-transparent">Read More</button>
         </div>
       </div>
     </div>
@@ -92,9 +95,11 @@
             We are Arabism Land for Touring Co.
             Registered in the Kingdom of Saudi Arabia and licensed from the ministry of tourism.
           </p>
+          <p id="whoText" class="description d-none">We provide domestic touring services in the Kingdom of Saudi
+            Arabia.</p>
 
           <div class="button pt-5">
-            <button class="button-black btn">Read More</button>
+            <button id="whoButton" class="button-black btn">Read More</button>
           </div>
         </div>
       </div>
@@ -110,10 +115,14 @@
                 <li>Organize suitable tours and special activities.</li>
                 <li>Providing unforgettable moments and rich experience.</li>
               </ul>
+              <ul id="goalText" class="d-none">
+                <li>Deliver high quality service.</li>
+                <li>Customer’s complete satisfaction.</li>
+              </ul>
             </div>
 
             <div class="button pt-5">
-              <div class="button-black btn">Read More</div>
+              <div id="goalButton" class="button-black btn">Read More</div>
             </div>
           </div>
 
@@ -152,9 +161,16 @@
             <li>Offering full tourist guided services.</li>
             <li>Car rental with driver.</li>
           </ul>
+          <div id="serviceText" class="d-none">
+            <ul>
+              <li>Organize special and business tours.</li>
+            </ul>
+            <p class="description">Arabism Land handles and takes care of every aspect of all tours and trips from the
+              planning through the end of the journey.</p>
+          </div>
 
           <div class="button pt-5">
-            <button class="button-black btn">Read More</button>
+            <button id="serviceButton" class="button-black btn">Read More</button>
             <button class="button-transparent btn">Contact Us</button>
           </div>
         </div>
@@ -209,8 +225,14 @@
             Discover the beauty of Saudi Arabia and with its own of present and inherited heritage.
           </p>
 
+          <p id="saudiT" class="description d-none">Saudi Arabia has so many attractions and sites each different and
+            unique, for that we
+            cover a wide range of the country.
+            Everything you need to know about Saudi Arabia is between your hands.
+          </p>
+
           <div class="button pt-5">
-            <button class="button-black btn">Read More</button>
+            <button id="saudiB" class="button-black btn">Read More</button>
             <button class="button-transparent btn">Find More</button>
           </div>
         </div>
@@ -230,19 +252,25 @@
         <div class="swiper teamSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="image">
-                <img src="assets/images/22.png" alt="team-member" class="w-100 img-fluid">
-              </div>
+              <a href="#">
+                <div class="image">
+                  <img src="assets/images/22.png" alt="team-member" class="w-100 img-fluid">
+                </div>
+              </a>
             </div>
             <div class="swiper-slide">
-              <div class="image">
-                <img src="assets/images/33.png" alt="team-member" class="w-100 img-fluid">
-              </div>
+              <a href="#">
+                <div class="image">
+                  <img src="assets/images/33.png" alt="team-member" class="w-100 img-fluid">
+                </div>
+              </a>
             </div>
             <div class="swiper-slide">
-              <div class="image">
-                <img src="assets/images/44.png" alt="team-member" class="w-100 img-fluid">
-              </div>
+              <a href="#">
+                <div class="image">
+                  <img src="assets/images/44.png" alt="team-member" class="w-100 img-fluid">
+                </div>
+              </a>
             </div>
             <div class="swiper-slide">
               <div class="image">
@@ -372,8 +400,10 @@
             <div class="mb-3">
               <input class="custom-input" type="text" placeholder="Subject">
             </div>
-            <div class="mb-3">
-              <input class="custom-input" type="text" placeholder="Your Message">
+            <div class="form-floating mb-3">
+              <textarea class="form-control custom-input" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 130px"></textarea>
+              <label for="floatingTextarea2">Your message</label>
             </div>
 
             <button class="button-transparent btn">SEND</button>
@@ -492,6 +522,7 @@
   <script>
     var swiper = new Swiper(".teamSwiper", {
       centeredMode: true,
+      autoPlay: true,
       loop: true,
       spaceBetween: 30,
       navigation: {
