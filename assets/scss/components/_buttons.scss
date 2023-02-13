@@ -37,6 +37,8 @@
     padding: 5px 20px;
     color: #FFFFFF;
     border: 2px solid #371900;
+    position: relative;
+    z-index: 99;
 
     &:hover {
         background-color: #F9A51A;
