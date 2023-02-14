@@ -140,6 +140,10 @@ body {
   padding: 0 20px;
 }
 
+.modal-text-fixed {
+  height: 400px;
+}
+
 /*===// end of base css === */
 /*=== layouts css start === */
 .navbar-4 .navbar-brand .brand-logo {
@@ -213,8 +217,9 @@ body {
   padding-top: 80px;
 }
 .footer .social-link {
+  padding-top: 60px;
   display: flex;
-  padding: 0;
+  padding-left: 0;
   align-items: center;
   margin-top: 20px;
 }
@@ -225,7 +230,7 @@ body {
   border: 1px solid #000;
   height: 45px;
   width: 45px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 50%;
   color: #000;
 }
@@ -474,13 +479,17 @@ body {
 }
 
 .login-modal .modal-dialog {
-  max-width: 1080px;
+  max-width: 760px;
 }
 .login-modal .modal-dialog .modal-content {
   padding: 20px;
   background: #FBE7B7;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .modal-text-fixed {
+  height: 300px;
+  overflow-y: scroll;
 }
 .login-modal .modal-dialog .modal-content .modal-body p {
   font-size: 24px;
