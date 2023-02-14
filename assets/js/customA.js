@@ -1,33 +1,45 @@
-let aboutstate = false;
+// about us
+let whoState = false;
 
-const whoT = document.getElementById("whoT");
-const whoB = document.getElementById("whoB");
-whoB.addEventListener('click', () => {
-    aboutstate = !aboutstate;
+const whoDot = document.getElementById("whoDot");
+const whoText = document.getElementById("whoText");
+const whoButton = document.getElementById("whoButton");
+whoButton.addEventListener('click', () => {
+    whoState = !whoState;
 
-    if (aboutstate === true) {
-        whoT.classList.add("d-none")
-        whoB.innerText = "Read More"
+    if (whoState === true) {
+        whoText.classList.add("d-none")
+        whoDot.classList.remove("d-none")
+        whoButton.innerText = "Read More"
     }
     else {
-        whoT.classList.remove("d-none");
-        whoB.innerText = "Read Less"
+        whoText.classList.remove("d-none")
+        whoDot.classList.add("d-none")
+        whoButton.innerText = "Read Less"
     }
 })
 
-let oal3tate = false;
 
-const gtext = document.getElementById("gtext");
-const gButton = document.getElementById("gButton");
-gButton.addEventListener('click', () => {
-    oal3tate = !oal3tate;
+// goal state
+let oalState = false;
 
-    if (oal3tate === true) {
-        gtext.classList.add("d-none")
-        gButton.innerText = "Read More"
+const goalText = document.getElementById("goalText");
+const GT2 = document.getElementById("GT2");
+const gDot = document.getElementById("gDot");
+const goalButton = document.getElementById("goalButton");
+goalButton.addEventListener('click', () => {
+    oalState = !oalState;
+
+    if (oalState === true) {
+        goalText.classList.add("d-none");
+        GT2.classList.add("d-none");
+        gDot.classList.remove("d-none");
+        goalButton.innerText = "Read More";
     }
     else {
-        gtext.classList.remove("d-none");
-        gButton.innerText = "Read Less"
+        goalText.classList.remove("d-none");
+        gDot.classList.add("d-none");
+        GT2.classList.remove("d-none");
+        goalButton.innerText = "Read Less";
     }
 })
