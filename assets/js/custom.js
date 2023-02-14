@@ -1,18 +1,24 @@
 // banner
 let bannerTextState = false;
 
+const bDot = document.getElementById("bDot");
+const bannerText1 = document.getElementById("BT1");
 const bannerText = document.getElementById("moreText");
 const toglr = document.getElementById("bannertoggler");
 toglr.addEventListener('click', () => {
     bannerTextState = !bannerTextState;
     console.log(bannerTextState);
     if (bannerTextState === true) {
-        bannerText.classList.remove("d-none")
-        toglr.innerText = "Read Less"
+        bannerText.classList.remove("d-none");
+        bannerText1.classList.remove("d-none");
+        bDot.classList.add("d-none");
+        toglr.innerText = "Read Less";
     }
     else {
-        bannerText.classList.add("d-none")
-        toglr.innerText = "Read More"
+        bDot.classList.remove("d-none");
+        bannerText1.classList.add("d-none");
+        bannerText.classList.add("d-none");
+        toglr.innerText = "Read More";
     }
 })
 
