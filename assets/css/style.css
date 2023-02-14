@@ -205,11 +205,6 @@ body {
   line-height: 37px;
   color: #371900;
 }
-@media (min-width: 1200px) {
-  .nav-with-banner .home-banner .wrapper .description {
-    white-space: pre-line;
-  }
-}
 .nav-with-banner .home-banner .wrapper .buttons {
   padding-top: 120px;
 }
