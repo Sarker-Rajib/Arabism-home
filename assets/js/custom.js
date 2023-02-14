@@ -1,3 +1,4 @@
+// banner
 let bannerTextState = false;
 
 const bannerText = document.getElementById("moreText");
@@ -15,8 +16,11 @@ toglr.addEventListener('click', () => {
     }
 })
 
+
+// about us
 let whoState = false;
 
+const whoDot = document.getElementById("whoDot");
 const whoText = document.getElementById("whoText");
 const whoButton = document.getElementById("whoButton");
 whoButton.addEventListener('click', () => {
@@ -24,63 +28,85 @@ whoButton.addEventListener('click', () => {
 
     if (whoState === true) {
         whoText.classList.remove("d-none")
+        whoDot.classList.add("d-none")
         whoButton.innerText = "Read Less"
     }
     else {
         whoText.classList.add("d-none")
+        whoDot.classList.remove("d-none")
         whoButton.innerText = "Read More"
     }
 })
 
+
+// goal state
 let oalState = false;
 
 const goalText = document.getElementById("goalText");
+const GT2 = document.getElementById("GT2");
+const gDot = document.getElementById("gDot");
 const goalButton = document.getElementById("goalButton");
 goalButton.addEventListener('click', () => {
     oalState = !oalState;
 
     if (oalState === true) {
-        goalText.classList.remove("d-none")
-        goalButton.innerText = "Read Less"
+        goalText.classList.remove("d-none");
+        GT2.classList.remove("d-none");
+        gDot.classList.add("d-none");
+        goalButton.innerText = "Read Less";
     }
     else {
-        goalText.classList.add("d-none")
-        goalButton.innerText = "Read More"
+        goalText.classList.add("d-none");
+        gDot.classList.remove("d-none");
+        GT2.classList.add("d-none");
+        goalButton.innerText = "Read More";
     }
 })
 
 
+// service section
 let serviceState = false;
 
 const serviceText = document.getElementById("serviceText");
+const serDot = document.getElementById("serDot");
 const serviceButton = document.getElementById("serviceButton");
 serviceButton.addEventListener('click', () => {
     serviceState = !serviceState;
 
     if (serviceState === true) {
-        serviceText.classList.remove("d-none")
-        serviceButton.innerText = "Read Less"
+        serviceText.classList.remove("d-none");
+        serDot.classList.add("d-none");
+        serviceButton.innerText = "Read Less";
     }
     else {
-        serviceText.classList.add("d-none")
-        serviceButton.innerText = "Read More"
+        serDot.classList.remove("d-none");
+        serviceText.classList.add("d-none");
+        serviceButton.innerText = "Read More";
     }
 })
 
+
+// saudi section
 let sauduS = false;
 
 const saudiT = document.getElementById("saudiT");
+const saudiDot = document.getElementById("saudiDot");
 const saudiB = document.getElementById("saudiB");
+const sdt1 = document.getElementById("sdt1");
 saudiB.addEventListener('click', () => {
     sauduS = !sauduS;
 
     if (sauduS === true) {
-        saudiT.classList.remove("d-none")
-        saudiB.innerText = "Read Less"
+        saudiT.classList.remove("d-none");
+        sdt1.classList.remove("d-none");
+        saudiDot.classList.add("d-none");
+        saudiB.innerText = "Read Less";
     }
     else {
-        saudiT.classList.add("d-none")
-        saudiB.innerText = "Read More"
+        saudiT.classList.add("d-none");
+        sdt1.classList.add("d-none");
+        saudiDot.classList.remove("d-none");
+        saudiB.innerText = "Read More";
     }
 })
 

@@ -18,6 +18,7 @@
     rel="stylesheet">
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -56,18 +57,23 @@
 
       <!-- banner -->
       <div class="home-banner">
-        <h4 class="title">Arabism Land</h4>
-        <h6 class="subt">welcomes you to</h6>
-        <p class="description">Explore Saudi Arabia like you’ve never seen before.
-          Arabism Land offers you a discovery opportunity in an
-          extraordinary journey.
-          <span id="moreText" class="d-none">Be part of the valuable journey and enjoy the featured tours and trips.
-            <strong>exclusive offers! For subscribers only
-              enjoy a 30% coupon discount</strong></span>
-        </p>
-        <div class="buttons">
-          <button class="btn button-yellow">Subscribe now</button>
-          <button id="bannertoggler" class="btn button-transparent">Read More</button>
+        <div class="row">
+          <div class="col-md-8">
+            <h4 class="title">Arabism Land</h4>
+            <h6 class="subt">welcomes you to</h6>
+            <p class="description">Explore Saudi Arabia like you’ve never seen before.
+              Arabism Land offers you a discovery opportunity in an
+              extraordinary journey.
+
+              <span id="moreText" class="d-none">Be part of the valuable journey and enjoy the featured tours and trips.
+                <strong>exclusive offers! For subscribers only
+                  enjoy a 30% coupon discount</strong></span>
+            </p>
+            <div class="buttons">
+              <button class="btn button-yellow">Subscribe now</button>
+              <button id="bannertoggler" class="btn button-transparent">Read More</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -92,11 +98,16 @@
           </div>
 
           <p class="description">
-            We are Arabism Land for Touring Co.
-            Registered in the Kingdom of Saudi Arabia and licensed from the ministry of tourism.
-          </p>
-          <p id="whoText" class="description d-none">We provide domestic touring services in the Kingdom of Saudi
-            Arabia.</p>
+            We are Arabism Land for Touring Co.</p>
+
+          <p class="description">
+            Registered <span id="whoDot">...</span> <span id="whoText" class="d-none">in the Kingdom of Saudi Arabia and
+              licensed
+              from the ministry
+              of tourism.
+
+              We provide domestic touring services in the Kingdom of Saudi
+              Arabia.</span> </p>
 
           <div class="button pt-5">
             <button id="whoButton" class="button-black btn">Read More</button>
@@ -113,11 +124,12 @@
               <h6>Our Goals</h6>
               <ul>
                 <li>Organize suitable tours and special activities.</li>
-                <li>Providing unforgettable moments and rich experience.</li>
-              </ul>
-              <ul id="goalText" class="d-none">
-                <li>Deliver high quality service.</li>
-                <li>Customer’s complete satisfaction.</li>
+                <li>Providing <span id="gDot">...</span><span id="GT2" class="d-none">unforgettable moments and rich
+                    experience.</span></li>
+                <span id="goalText" class="d-none">
+                  <li>Deliver high quality service.</li>
+                  <li>Customer’s complete satisfaction.</li>
+                </span>
               </ul>
             </div>
 
@@ -153,15 +165,16 @@
           </div>
 
           <p class="description">
-            we are offering our services in the kingdom of saudi arabia, which includes the following
+            we are offering our services in the kingdom of saudi arabia, which includes the following <span
+              id="serDot">...</span>
           </p>
 
-          <ul>
-            <li>Organize tours and trips.</li>
-            <li>Offering full tourist guided services.</li>
-            <li>Car rental with driver.</li>
-          </ul>
           <div id="serviceText" class="d-none">
+            <ul>
+              <li>Organize tours and trips.</li>
+              <li>Offering full tourist guided services.</li>
+              <li>Car rental with driver.</li>
+            </ul>
             <ul>
               <li>Organize special and business tours.</li>
             </ul>
@@ -171,7 +184,7 @@
 
           <div class="button pt-5">
             <button id="serviceButton" class="button-black btn">Read More</button>
-            <button class="button-transparent btn">Contact Us</button>
+            <a href="#contactUs" class="button-transparent btn">Contact Us</a>
           </div>
         </div>
       </div>
@@ -222,7 +235,10 @@
           </div>
 
           <p class="description">
-            Discover the beauty of Saudi Arabia and with its own of present and inherited heritage.
+            Discover the beauty of Saudi Arabia <span id="saudiDot">...</span> <span id="sdt1" class="d-none">and with
+              its own of
+              present and inherited
+              heritage.</span>
           </p>
 
           <p id="saudiT" class="description d-none">Saudi Arabia has so many attractions and sites each different and
@@ -305,7 +321,7 @@
         personalized itineraries, and exclusive offers</p>
       <form action="">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="" aria-label="Recipient's username"
+          <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" required
             aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button class="input-group-text btn" id="basic-addon2">Subscribe</button>
@@ -318,7 +334,7 @@
 
 
   <!-- get in touch -->
-  <div class="get-in-touch">
+  <div class="get-in-touch" id="contactUs">
     <div class="container">
       <div class="numbered-heading-f">
         <div class="number">
@@ -389,20 +405,20 @@
           <h3 class="heading">Contact</h3>
           <form action="">
             <div class="mb-3">
-              <input class="custom-input" type="text" placeholder="Name*">
+              <input class="custom-input" type="text" placeholder="Name*" required>
             </div>
             <div class="mb-3">
-              <input class="custom-input" type="text" placeholder="Email">
+              <input class="custom-input" type="email" placeholder="Email" required>
             </div>
             <div class="mb-3">
-              <input class="custom-input" type="text" placeholder="Phone Number*">
+              <input class="custom-input" type="number" placeholder="Phone Number*" required>
             </div>
             <div class="mb-3">
-              <input class="custom-input" type="text" placeholder="Subject">
+              <input class="custom-input" type="text" placeholder="Subject" required>
             </div>
             <div class="form-floating mb-3">
               <textarea class="form-control custom-input" placeholder="Leave a comment here" id="floatingTextarea2"
-                style="height: 130px"></textarea>
+                style="height: 130px" required></textarea>
               <label for="floatingTextarea2">Your message</label>
             </div>
 
