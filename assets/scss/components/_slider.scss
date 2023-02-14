@@ -4,6 +4,9 @@
     .left {
         padding: 150px;
 
+        @media(max-width: 992px) {
+            padding: 20px;
+        }
 
         .swiper {
             width: 100%;

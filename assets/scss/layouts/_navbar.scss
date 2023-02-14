@@ -46,36 +46,40 @@
     .home-banner {
         padding-top: 120px;
 
-        .title {
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 49px;
-            color: #371900;
-            padding-bottom: 16px;
-        }
+        .wrapper {
+            min-height: 700px;
 
-        .subt {
-            font-weight: 600;
-            font-size: 35px;
-            line-height: 43px;
-            color: #371900;
-            padding-bottom: 20px;
-        }
+            .title {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 49px;
+                color: #371900;
+                padding-bottom: 16px;
+            }
 
-        .description {
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 37px;
-            color: #371900;
+            .subt {
+                font-weight: 600;
+                font-size: 35px;
+                line-height: 43px;
+                color: #371900;
+                padding-bottom: 20px;
+            }
 
-            @media(min-width: 1200px) {
-                white-space: pre-line;
+            .description {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 37px;
+                color: #371900;
+
+                @media(min-width: 1200px) {
+                    white-space: pre-line;
+                }
+            }
+
+            .buttons {
+                padding-top: 120px;
             }
         }
 
-        .buttons {
-            padding-top: 120px;
-            padding-bottom: 200px;
-        }
     }
 }

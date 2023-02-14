@@ -182,34 +182,36 @@ body {
 .nav-with-banner .home-banner {
   padding-top: 120px;
 }
-.nav-with-banner .home-banner .title {
+.nav-with-banner .home-banner .wrapper {
+  min-height: 700px;
+}
+.nav-with-banner .home-banner .wrapper .title {
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
   color: #371900;
   padding-bottom: 16px;
 }
-.nav-with-banner .home-banner .subt {
+.nav-with-banner .home-banner .wrapper .subt {
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
   color: #371900;
   padding-bottom: 20px;
 }
-.nav-with-banner .home-banner .description {
+.nav-with-banner .home-banner .wrapper .description {
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
   color: #371900;
 }
 @media (min-width: 1200px) {
-  .nav-with-banner .home-banner .description {
+  .nav-with-banner .home-banner .wrapper .description {
     white-space: pre-line;
   }
 }
-.nav-with-banner .home-banner .buttons {
+.nav-with-banner .home-banner .wrapper .buttons {
   padding-top: 120px;
-  padding-bottom: 200px;
 }
 
 .footer {
@@ -319,6 +321,11 @@ body {
 .feed .left {
   padding: 150px;
 }
+@media (max-width: 992px) {
+  .feed .left {
+    padding: 20px;
+  }
+}
 .feed .left .swiper {
   width: 100%;
   height: 100%;
@@ -370,6 +377,7 @@ body {
 .newsletter .wrapper {
   max-width: 720px;
   margin: auto;
+  padding: 10px;
 }
 .newsletter .wrapper .heading {
   font-weight: 700;
@@ -587,7 +595,10 @@ body {
   padding-top: 150px;
   background: url(./../images/ab-bg.png) no-repeat center center/cover;
 }
-.home-about .description {
+.home-about .about-us-text {
+  height: 550px;
+}
+.home-about .about-us-text .description {
   font-weight: 500;
   font-size: 35px;
   color: #371900;
@@ -624,22 +635,25 @@ body {
   position: relative;
   padding-top: 400px;
 }
-.our-service .description {
+.our-service .service-text {
+  min-height: 1000px;
+}
+.our-service .service-text .description {
   font-weight: 500;
   font-size: 35px;
   color: #371900;
 }
-.our-service ul {
+.our-service .service-text ul {
   padding: 0;
 }
-.our-service ul li {
+.our-service .service-text ul li {
   padding-left: 50px;
   font-weight: 500;
   font-size: 35px;
   color: #371900;
   position: relative;
 }
-.our-service ul li::after {
+.our-service .service-text ul li::after {
   content: "";
   position: absolute;
   left: 0;
@@ -661,8 +675,9 @@ body {
 
 .our-mission {
   position: relative;
-  padding-top: 400px;
-  padding-bottom: 200px;
+}
+.our-mission #mission-text {
+  min-height: 840px;
 }
 .our-mission .description {
   font-weight: 500;
@@ -671,7 +686,7 @@ body {
 }
 .our-mission .line3 {
   position: absolute;
-  top: -90px;
+  top: -480px;
   left: 35%;
 }
 @media (max-width: 1199px) {

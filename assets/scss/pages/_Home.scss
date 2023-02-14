@@ -2,10 +2,14 @@
     padding-top: 150px;
     background: url(./../images/ab-bg.png) no-repeat center center/cover;
 
-    .description {
-        font-weight: 500;
-        font-size: 35px;
-        color: #371900;
+    .about-us-text {
+        height: 550px;
+
+        .description {
+            font-weight: 500;
+            font-size: 35px;
+            color: #371900;
+        }
     }
 
     .goal {
@@ -45,30 +49,34 @@
     position: relative;
     padding-top: 400px;
 
-    .description {
-        font-weight: 500;
-        font-size: 35px;
-        color: #371900;
-    }
+    .service-text {
+        min-height: 1000px;
 
-    ul {
-        padding: 0;
-
-        li {
-            padding-left: 50px;
+        .description {
             font-weight: 500;
             font-size: 35px;
             color: #371900;
-            position: relative;
+        }
 
-            &::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 10px;
-                height: 30px;
-                width: 30px;
-                background: url(../images/li.png) center center/contain;
+        ul {
+            padding: 0;
+
+            li {
+                padding-left: 50px;
+                font-weight: 500;
+                font-size: 35px;
+                color: #371900;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 10px;
+                    height: 30px;
+                    width: 30px;
+                    background: url(../images/li.png) center center/contain;
+                }
             }
         }
     }
@@ -86,8 +94,11 @@
 
 .our-mission {
     position: relative;
-    padding-top: 400px;
-    padding-bottom: 200px;
+
+    #mission-text {
+        min-height: 840px;
+
+    }
 
     .description {
         font-weight: 500;
@@ -96,9 +107,10 @@
     }
 
 
+
     .line3 {
         position: absolute;
-        top: -90px;
+        top: -480px;
         left: 35%;
 
 
