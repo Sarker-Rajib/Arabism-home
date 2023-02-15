@@ -92,6 +92,28 @@ serviceButton.addEventListener('click', () => {
 })
 
 
+// mission
+let missionState = false;
+
+const missionD = document.getElementById("missionD");
+const missiont = document.getElementById("missionT");
+const missionButton = document.getElementById("missionB");
+missionButton.addEventListener('click', () => {
+    missionState = !missionState;
+
+    if (missionState === true) {
+        missiont.classList.remove("d-none");
+        missionD.classList.add("d-none");
+        missionButton.innerText = "Read Less";
+    }
+    else {
+        missionD.classList.remove("d-none");
+        missiont.classList.add("d-none");
+        missionButton.innerText = "Read More";
+    }
+})
+
+
 // saudi section
 let sauduS = false;
 

@@ -144,6 +144,10 @@ body {
   height: 400px;
 }
 
+#privacy-policy {
+  background: url(../images/footer-bg.png) no-repeat bottom center/contain;
+}
+
 /*===// end of base css === */
 /*=== layouts css start === */
 .navbar-4 .navbar-brand .brand-logo {
@@ -267,6 +271,10 @@ body {
 .footer .f-bottom .fv a {
   color: #000;
   text-decoration: underline;
+}
+
+.about-us-footer {
+  background: url(../images/footer-bg.png) no-repeat center center/cover;
 }
 
 /*===// end of layouts css === */
@@ -502,6 +510,9 @@ body {
   color: #F9A51A;
 }
 
+.sign-in {
+  background: url(../images/footer-bg.png) no-repeat center center/cover;
+}
 .sign-in .form-wrapper {
   max-width: 785px;
   padding: 20px;
@@ -510,8 +521,9 @@ body {
 
 .error,
 .loading {
-  padding: 150px;
+  padding-top: 150px;
   text-align: center;
+  background: url(../images/footer-bg.png) no-repeat bottom center/cover;
 }
 .error h4,
 .loading h4 {
@@ -563,6 +575,7 @@ body {
   max-width: 795px;
   padding-block: 80px;
   padding-inline: 15px;
+  min-height: 600px;
   margin: auto;
 }
 .payment .tab-content .exp-t {
@@ -610,6 +623,7 @@ body {
 .home-about .goal {
   padding-top: 400px;
   position: relative;
+  background: url(./../images/our-goal.png) no-repeat;
 }
 .home-about .goal h6 {
   font-weight: 700;
@@ -664,7 +678,18 @@ body {
   top: 10px;
   height: 30px;
   width: 30px;
+}
+.our-service .service-text ul li.first::after {
   background: url(../images/li.png) center center/contain;
+}
+.our-service .service-text ul li.second::after {
+  background: url(../images/222.png) center center/contain;
+}
+.our-service .service-text ul li.third::after {
+  background: url(../images/223.png) center center/contain;
+}
+.our-service .service-text ul li.fourth::after {
+  background: url(../images/224.png) center center/contain;
 }
 .our-service .line2 {
   position: absolute;
@@ -679,9 +704,10 @@ body {
 
 .our-mission {
   position: relative;
+  background: url(./../images/our-goal.png) no-repeat;
 }
-.our-mission #mission-text {
-  min-height: 840px;
+.our-mission .main-mission-text {
+  height: 600px;
 }
 .our-mission .description {
   font-weight: 500;
@@ -697,4 +723,12 @@ body {
   .our-mission .line3 {
     display: none;
   }
+}
+
+.soudi {
+  background: url(./../images/ab-bg.png) no-repeat center center/cover;
+}
+.soudi #mission-text {
+  min-height: 840px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
