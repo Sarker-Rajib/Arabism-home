@@ -185,7 +185,7 @@ body {
 
 .nav-with-banner {
   padding-top: 60px;
-  background: url(../images/bg1.png) no-repeat top center/cover;
+  background: url(../images/bg1.png) no-repeat top right/cover;
 }
 .nav-with-banner .home-banner {
   padding-top: 120px;
@@ -625,6 +625,9 @@ body {
   position: relative;
   background: url(./../images/our-goal.png) no-repeat;
 }
+.home-about .goal .g-text {
+  height: 500px;
+}
 .home-about .goal h6 {
   font-weight: 700;
   font-size: 50px;
@@ -654,7 +657,7 @@ body {
   padding-top: 400px;
 }
 .our-service .service-text {
-  min-height: 1000px;
+  min-height: 1050px;
 }
 .our-service .service-text .description {
   font-weight: 500;
@@ -729,6 +732,6 @@ body {
   background: url(./../images/ab-bg.png) no-repeat center center/cover;
 }
 .soudi #mission-text {
-  min-height: 840px;
+  min-height: 880px;
   margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
