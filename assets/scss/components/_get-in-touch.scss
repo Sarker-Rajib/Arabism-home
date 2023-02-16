@@ -2,6 +2,10 @@
     padding-top: 150px;
     background: url(../images/bg2.png) no-repeat bottom center/cover;
 
+    @media(max-width: 767px) {
+        padding-top: 80px;
+    }
+
     .heading-a {
         font-weight: 700;
         font-size: 54px;
@@ -81,13 +85,7 @@
             font-weight: 700;
             font-size: 20px;
             line-height: 20px;
-            /* or 100% */
-
-            letter-spacing: 0.02em;
-
-            /* Primary */
-
-            color: #371900;
+            letter-spacing: 0.02em;  color: #371900;
         }
     }
 }

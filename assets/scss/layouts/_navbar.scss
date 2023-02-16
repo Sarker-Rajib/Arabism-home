@@ -4,7 +4,17 @@
             max-width: 220px;
         }
     }
-
+    .navbar-collapse{
+        @media(max-width: 991px) {
+          position: absolute;
+          z-index: 999;
+          top: 100%;
+          width: 100%;
+          padding: 10px;
+          background: #ffffff41;
+          backdrop-filter: blur(10px);
+        }
+    }
     .navbar-nav .nav-link {
         font-weight: 700;
         font-size: 19px;
@@ -14,6 +24,9 @@
             margin-inline: 20px;
         }
 
+        @media(max-width: 991px) {
+        font-size: 15px;
+        }
         &:hover {
             color: #F9A51A;
         }
@@ -32,6 +45,10 @@
         color: #371900;
         padding: 5px 30px;
 
+        @media(max-width: 991px) {
+            font-size: 20px;
+        }
+
         &:hover {
             background-color: #F9A51A;
             color: #ffffff;
@@ -42,12 +59,21 @@
 .nav-with-banner {
     padding-top: 60px;
     background: url(../images/bg1.png) no-repeat top right/cover;
-
+    @media(max-width: 991px) {
+        padding-top: 0;
+    }
     .home-banner {
         padding-top: 120px;
+        @media(max-width: 767px) {
+            padding-top: 60px;
+        }
 
         .wrapper {
             min-height: 700px;
+            @media(max-width: 767px) {
+                min-height: 550px;
+
+            }
 
             .title {
                 font-weight: 700;
@@ -55,6 +81,10 @@
                 line-height: 49px;
                 color: #371900;
                 padding-bottom: 16px;
+
+                @media(max-width: 767px) {
+                    font-size: 25px;
+                }
             }
 
             .subt {
@@ -63,6 +93,9 @@
                 line-height: 43px;
                 color: #371900;
                 padding-bottom: 20px;
+                @media(max-width: 767px) {
+                    font-size: 20px;
+                }
             }
 
             .description {
@@ -70,10 +103,19 @@
                 font-size: 30px;
                 line-height: 37px;
                 color: #371900;
+
+                @media(max-width: 767px) {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
             }
 
             .buttons {
                 padding-top: 120px;
+
+                @media(max-width: 767px) {
+                    padding-top: 60px;
+                }
             }
         }
 

@@ -11,6 +11,10 @@
             font-weight: 700;
             font-size: 50px;
             color: #FFFFFF;
+
+            @media(max-width: 767px) {
+                font-size: 30px;
+            }
         }
 
         p {
@@ -18,12 +22,20 @@
             font-size: 32px;
             color: #FFFFFF;
             padding-bottom: 50px;
+
+            @media(max-width: 767px) {
+                font-size: 20px;
+            }
         }
 
         input {
             background: #FDEBBC;
             border-radius: 10px 0px 0px 10px;
             height: 64px;
+
+            @media(max-width: 767px) {
+                height: 40px;
+            }
         }
 
         button {
@@ -32,6 +44,14 @@
             color: #FFFFFF;
             height: 64px;
             font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media(max-width: 767px) {
+                height: 40px;
+                font-size: 20px;
+            }
         }
     }
 }

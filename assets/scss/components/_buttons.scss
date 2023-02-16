@@ -6,6 +6,10 @@
     font-size: 24px;
     margin: 5px;
 
+    @media(max-width: 767px) {
+        font-size: 18px;
+    }
+
     &:hover {
         background-color: #F9A51A;
         color: #ffffff;
@@ -19,6 +23,10 @@
     font-weight: 400;
     font-size: 24px;
     margin: 5px;
+
+    @media(max-width: 767px) {
+        font-size: 18px;
+    }
 
     &:hover {
         background-color: #fc7e00;
@@ -39,6 +47,10 @@
     border: 2px solid #371900;
     position: relative;
     z-index: 99;
+
+    @media(max-width: 767px) {
+        font-size: 18px;
+    }
 
     &:hover {
         background-color: #F9A51A;

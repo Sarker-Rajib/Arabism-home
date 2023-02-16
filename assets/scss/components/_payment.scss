@@ -19,6 +19,11 @@
             background: #00000000;
             color: #371900;
 
+            @media(max-width: 767px){
+            font-size: 18px;
+            line-height: 16px;
+            }
+
             &.active {
                 background: #371900;
                 color: #fff;
@@ -37,13 +42,11 @@
             font-weight: 700;
             font-size: 20px;
             line-height: 24px;
-            /* identical to box height, or 120% */
-
             letter-spacing: 0.01em;
-
-            /* Primary */
-
             color: #371900;
+            @media(max-width: 767px){
+            font-size: 16px;
+            }
         }
 
         .terms {
@@ -64,9 +67,29 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-
-    /* PRIMARY */
-
     color: #371900;
+}
 
+.terms-body{
+    ::-webkit-scrollbar {
+       width: 5px;
+       border-radius: 20px;
+     }
+     
+     /* Track */
+     ::-webkit-scrollbar-track {
+       background: #f1f1f100; 
+     }
+      
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+       background: #353535a9; 
+       border-radius: 10px;
+
+     }
+     
+     /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+       background: #e0b26e; 
+     }
 }

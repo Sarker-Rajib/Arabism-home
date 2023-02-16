@@ -21,6 +21,10 @@
                     font-size: 20px;
                     line-height: 24px;
                     color: #371900;
+                    @media(max-width: 767px) {
+                        font-size: 18px;
+                       line-height: 22px;
+                    }
 
                     a {
                         color: #F9A51A;
