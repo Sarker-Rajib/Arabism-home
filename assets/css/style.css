@@ -980,14 +980,20 @@ body {
   border: 1px solid #FBE7B7;
   border-radius: 10px;
 }
-.purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter input {
+.purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter .number {
+  display: inline-block;
+}
+.purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter .number input {
   width: 34px;
   border: none;
   font-size: 20px;
   color: #371900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 767px) {
-  .purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter input {
+  .purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter .number input {
     font-size: 15px;
     width: 20px;
   }
@@ -995,6 +1001,7 @@ body {
 .purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter button {
   font-size: 25px;
   color: #371900;
+  border: 1px solid #371900;
 }
 @media (max-width: 767px) {
   .purchase-modal .modal-dialog .modal-content .modal-body .checkout-cards-wrapper .order-card .item-details .text .counter button {

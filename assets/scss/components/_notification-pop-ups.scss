@@ -94,22 +94,31 @@
                                     border: 1px solid #FBE7B7;
                                     border-radius: 10px;
 
-                                    input {
-                                        width: 34px;
-                                        border: none;
-                                        font-size: 20px;
-                                        color: #371900;
 
-                                        @media(max-width: 767px) {
-                                            font-size: 15px;
-                                            width: 20px;
+                                    .number {
+                                        display: inline-block;
+
+                                        input {
+                                            width: 34px;
+                                            border: none;
+                                            font-size: 20px;
+                                            color: #371900;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            @media(max-width: 767px) {
+                                                font-size: 15px;
+                                                width: 20px;
+                                            }
+
                                         }
-
                                     }
 
                                     button {
                                         font-size: 25px;
                                         color: #371900;
+                                        border: 1px solid #371900;
 
                                         @media(max-width: 767px) {
                                             font-size: 15px;
