@@ -9,24 +9,24 @@
     padding-bottom: 100px;
 
     .line:nth-last-child(1) {
-        animation: loadingC 0.8s 0.1s linear infinite;
+        animation: loadingC 1.0s 0.2s linear infinite;
         background: #4E4377;
     }
 
     .line:nth-last-child(2) {
-        animation: loadingC 0.8s 0.2s linear infinite;
+        animation: loadingC 1.0s 0.3s linear infinite;
         background-color: #A21F1B;
         margin-right: 34px;
     }
 
     .line:nth-last-child(3) {
-        animation: loadingC 0.8s 0.3s linear infinite;
+        animation: loadingC 1.0s 0.4s linear infinite;
         background-color: #F9A51A;
         margin-right: 34px;
     }
 
     .line:nth-last-child(4) {
-        animation: loadingC 0.8s 0.4s linear infinite;
+        animation: loadingC 1.0s 0.5s linear infinite;
         background-color: #5EA139;
         margin-right: 34px;
     }
@@ -34,14 +34,14 @@
 
 @keyframes loadingC {
     0% {
-        transform: translate(0, 0);
+        transform: scale(1.0);
     }
 
     50% {
-        transform: translate(0, 30px);
+        transform: scale(1.2);
     }
 
     100% {
-        transform: translate(0, 0);
+        transform: scale(1.0);
     }
 }

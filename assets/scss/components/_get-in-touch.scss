@@ -35,7 +35,10 @@
             font-size: 16px;
             letter-spacing: 0.02em;
             color: #371900;
-            white-space: pre-line;
+        }
+
+        a.info:hover {
+            color: #F9A51A;
         }
 
         .title {
@@ -85,7 +88,8 @@
             font-weight: 700;
             font-size: 20px;
             line-height: 20px;
-            letter-spacing: 0.02em;  color: #371900;
+            letter-spacing: 0.02em;
+            color: #371900;
         }
     }
 }
