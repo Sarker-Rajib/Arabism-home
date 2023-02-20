@@ -1077,188 +1077,128 @@ body {
 
 @keyframes loadingA {
   0% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  12% {
-    transform: scale(2.2);
+  20% {
+    transform: scale(2) translateY(-15px);
     position: relative;
     z-index: 999;
   }
-  25% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  36% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  49% {
-    transform: scale(1);
+  40% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   60% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  72% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  87% {
-    transform: scale(1);
+  80% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
 }
 @keyframes loadingB {
   0% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  12% {
-    transform: scale(1);
+  20% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  25% {
-    transform: scale(1.5);
-    position: relative;
-    z-index: 2;
-  }
-  36% {
-    transform: scale(2.2);
-    position: relative;
-    z-index: 999;
-  }
-  49% {
-    transform: scale(1);
+  40% {
+    transform: scale(2) translateY(-15px);
     position: relative;
     z-index: 2;
   }
   60% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  72% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  87% {
-    transform: scale(1);
+  80% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
 }
 @keyframes loadingC {
   0% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  12% {
-    transform: scale(1);
+  20% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  25% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  36% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  49% {
-    transform: scale(1.5);
+  40% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   60% {
-    transform: scale(2.2);
-    position: relative;
-    z-index: 999;
-  }
-  72% {
-    transform: scale(1);
+    transform: scale(2) translateY(-15px);
     position: relative;
     z-index: 2;
   }
-  87% {
-    transform: scale(1);
+  80% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
 }
 @keyframes loadingD {
   0% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  12% {
-    transform: scale(1);
+  20% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  25% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  36% {
-    transform: scale(1);
-    position: relative;
-    z-index: 2;
-  }
-  49% {
-    transform: scale(1);
+  40% {
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
   60% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
-  72% {
-    transform: scale(1.6);
+  80% {
+    transform: scale(2) translateY(-15px);
     position: relative;
     z-index: 2;
-  }
-  87% {
-    transform: scale(2.2);
-    position: relative;
-    z-index: 999;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) translateY(0px);
     position: relative;
     z-index: 2;
   }
