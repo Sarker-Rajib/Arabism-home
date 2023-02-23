@@ -1496,6 +1496,104 @@ body {
   }
 }
 
+.offers .category-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #371900;
+  padding-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .offers .category-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+.offers .category-card {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  position: relative;
+}
+.offers .category-card .wrapper {
+  padding: 20px;
+}
+.offers .category-card .wrapper h5 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 15px 0;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .offers .category-card .wrapper h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.offers .category-card .wrapper p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .offers .category-card .wrapper p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.offers .category-card .wrapper a {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .offers .category-card .wrapper a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+.offers .category-card.yellow {
+  background: #F9A51A;
+}
+.offers .category-card.yellow .conditional {
+  background: linear-gradient(180deg, rgba(249, 165, 26, 0.38) 0%, #F9A51A 100%);
+}
+.offers .category-card .conditional {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 100px;
+}
+.offers .category-card .conditional p {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .offers .category-card .conditional p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+.offers .category-card.red {
+  background: #A21F1B;
+}
+.offers .category-card.red .conditional {
+  background: linear-gradient(180deg, rgba(162, 31, 27, 0.52) 0%, #A21F1B 100%);
+}
+.offers .category-card.green {
+  background: #5EA139;
+}
+
 /*===// end of components css === */
 .home-about {
   padding-top: 150px;
