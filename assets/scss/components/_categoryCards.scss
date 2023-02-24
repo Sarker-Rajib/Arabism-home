@@ -1,4 +1,6 @@
 .offers {
+    background: url(../images/bg2.png) no-repeat center center/cover;
+
     .category-title {
         font-weight: 700;
         font-size: 40px;
@@ -102,6 +104,11 @@
 
         &.green {
             background: #5EA139;
+
+            .conditional {
+                background: linear-gradient(180deg, rgba(94, 161, 57, 0.48) 0%, rgba(94, 161, 57, 0.8) 100%);
+                border-radius: 6px;
+            }
         }
     }
 }
