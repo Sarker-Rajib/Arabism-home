@@ -713,6 +713,49 @@ body {
   background: transparent;
   cursor: pointer;
 }
+.sign-in .form-wrapper .button-save {
+  width: 255px;
+  height: 40px;
+  background: #371900;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-inline: 30px;
+}
+.sign-in .form-wrapper .button-cancel {
+  width: 255px;
+  height: 40px;
+  left: 425px;
+  top: 1159px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #371900;
+  border: 1px solid #371900;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin-inline: 30px;
+}
+.sign-in .form-wrapper .p-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-decoration-line: underline;
+  color: #371900;
+}
+@media (max-width: 767px) {
+  .sign-in .form-wrapper .p-link {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 
 .error,
 .loading {
