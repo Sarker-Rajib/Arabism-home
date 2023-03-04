@@ -5,5 +5,49 @@
         max-width: 785px;
         padding: 20px;
         margin: auto;
+
+        .check {
+            height: 28px;
+            width: 28px;
+        }
+
+        .agree,
+        .login {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: #371900;
+        }
+
+        .redirect {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: #371900;
+        }
+
+        .transPbtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            border: 1.5px solid #371900;
+            border-radius: 6px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: #371900;
+            background: transparent;
+            cursor: pointer;
+        }
     }
 }

@@ -673,6 +673,46 @@ body {
   padding: 20px;
   margin: auto;
 }
+.sign-in .form-wrapper .check {
+  height: 28px;
+  width: 28px;
+}
+.sign-in .form-wrapper .agree,
+.sign-in .form-wrapper .login {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #371900;
+}
+.sign-in .form-wrapper .redirect {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #371900;
+}
+.sign-in .form-wrapper .transPbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1.5px solid #371900;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #371900;
+  background: transparent;
+  cursor: pointer;
+}
 
 .error,
 .loading {
