@@ -2,3 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #fdebbc;
 }
+
+.dropdown-toggle::after {
+  display: none;
+}
